@@ -8,7 +8,7 @@ hero:
     - text: 捐赠
       link: /zh-CN/
     - text: 快速上手
-      link: /zh-CN/article/getting-started
+      link: /zh-CN/guide
 features:
   - icon: https://i.loli.net/2021/10/04/FHMz7A8qGNkuTcY.png
     title: 模块化设计
