@@ -8,7 +8,7 @@ hero:
     - text: Donate
       link: /
     - text: Getting Started
-      link: /getting-started
+      link: /article/getting-started
 features:
   - icon: https://i.loli.net/2021/10/04/FHMz7A8qGNkuTcY.png
     title: Modular design
