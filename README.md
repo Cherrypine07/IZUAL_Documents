@@ -5,17 +5,17 @@
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn
 ```
 
 Start the dev server,
 
 ```bash
-$ npm start
+$ yarn dumi dev
 ```
 
 Build site app,
 
 ```bash
-$ npm run build
+$ yarn dumi build
 ```
