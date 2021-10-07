@@ -15,9 +15,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-<<<<<<< HEAD
           github_token: ${{ secrets.IZUAL_Documents_Github_Pages }}
-=======
-          github_token: ${{ secrets.GITHUB_TOKEN }}
->>>>>>> 64123bca621cccbd21a865486b521f6194bc0871
           publish_dir: ./docs-dist
