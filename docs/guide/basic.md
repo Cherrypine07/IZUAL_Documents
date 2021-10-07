@@ -10,5 +10,3 @@ translateHelp: true
 ## Feature
 
 Balalala...
-
-sb
