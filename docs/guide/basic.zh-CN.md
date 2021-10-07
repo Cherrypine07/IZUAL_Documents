@@ -4,6 +4,7 @@ order: 2
 nav:
   title: 指南
 toc: menu
+translateHelp: true
 ---
 
 ## 特性
