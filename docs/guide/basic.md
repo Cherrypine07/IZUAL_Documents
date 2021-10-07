@@ -8,5 +8,3 @@ translateHelp: true
 ---
 
 ## Feature
-
-Balalala...
