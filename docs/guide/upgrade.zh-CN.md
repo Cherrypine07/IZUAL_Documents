@@ -5,8 +5,6 @@ toc: menu
 translateHelp: true
 ---
 
-<<<<<<< HEAD
-
 ### 自动升级功能暂时取消
 
 ### 手动升级
@@ -27,7 +25,3 @@ $ cd <Plugins的目录>
 $ git checkout master
 $ git pull
 ```
-
-=======
-
-> > > > > > > 7fadd25e2b2927ac2030d7b6e269a8f9dbc461dc
