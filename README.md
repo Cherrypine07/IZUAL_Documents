@@ -1,4 +1,4 @@
-# dumi app
+# IZUAL Document
 
 ## Getting Started
 
