@@ -31,6 +31,6 @@ export default defineConfig({
   },
 
   analytics: {
-    ga: 'UA-289390341-1',
+    ga: 'UA-209833657-1',
   },
 });
