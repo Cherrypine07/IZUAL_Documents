@@ -8,7 +8,6 @@ export default defineConfig({
   logo: 'https://i.loli.net/2021/10/05/sa4fJO3Y67SCXpD.png',
   exportStatic: {},
   fastRefresh: {},
-  outputPath: 'docs-dist',
 
   metas: [
     {
@@ -27,9 +26,7 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
-  // 路由前缀
+
   base: '/IZUAL_Documents/',
-  // 公共资源前缀
   publicPath: process.env.NODE_ENV === 'production' ? '/IZUAL_Documents/' : '/',
-  // more config: https://d.umijs.org/config
 });
