@@ -5,17 +5,17 @@
 Install dependencies,
 
 ```bash
-$ yarn
+$ yarn install
 ```
 
 Start the dev server,
 
 ```bash
-$ yarn dumi dev
+$ yarn start
 ```
 
 Build site app,
 
 ```bash
-$ yarn dumi build
+$ yarn build
 ```
