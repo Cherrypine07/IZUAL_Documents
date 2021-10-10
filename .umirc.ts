@@ -1,7 +1,6 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  hash: true,
   title: 'IZUAL - Document',
   mode: 'site',
   favicon: 'https://i.loli.net/2021/10/05/sa4fJO3Y67SCXpD.png',
