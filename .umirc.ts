@@ -26,4 +26,8 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
+
+  sitemap: {
+    hostname: 'https://doc.icscraft.top',
+  },
 });
