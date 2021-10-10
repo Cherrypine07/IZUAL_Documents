@@ -25,3 +25,5 @@ $ cd <Plugins的目录>
 $ git checkout master
 $ git pull
 ```
+
+sd
