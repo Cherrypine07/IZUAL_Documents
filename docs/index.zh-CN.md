@@ -7,7 +7,7 @@ hero:
       link: https://github.com/MiracleInk
     - text: 捐赠
       link: /zh-CN/
-    - text: 快速上手
+    - text: 指南
       link: /zh-CN/guide
 features:
   - icon: https://i.loli.net/2021/10/04/FHMz7A8qGNkuTcY.png
@@ -29,7 +29,7 @@ features:
     title: 安装简单
     desc: 支持各种平台, 提供一键安装脚本以及专属客户端
 translateHelp: false
-footer: Copyright © 2019-2021<br />Miracle Network Technology all rights reserved
+footer: Copyright © 2019-2021 Miracle Network Technology all rights reserved
 ---
 
 ## IZUAL - 说明文档

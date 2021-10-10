@@ -7,7 +7,7 @@ hero:
       link: https://github.com/MiracleInk
     - text: Donate
       link: /
-    - text: Getting Started
+    - text: Guide
       link: /guide
 features:
   - icon: https://i.loli.net/2021/10/04/FHMz7A8qGNkuTcY.png
