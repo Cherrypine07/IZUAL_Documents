@@ -26,7 +26,4 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
-
-  base: '/IZUAL_Documents/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/IZUAL_Documents/' : '/',
 });
