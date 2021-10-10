@@ -29,4 +29,8 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://doc.icscraft.top',
   },
+
+  analytics: {
+    ga: 'UA-289390341-1',
+  },
 });
