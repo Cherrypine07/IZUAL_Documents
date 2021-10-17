@@ -146,13 +146,13 @@ Used to view the existing configuration of IZUAL.
 | validate       | Yes             | See [Authentication](#_1)                                                                                                                                                                                                                                         |
 | key            | Optional        | The key value of a certain configuration. For example: `robot_name_cn`. If you want the corresponding value of a multi-level key, use the form of `/first-level key/second-level key/...`, such as `/ server/host` can take the `host` configuration of `server`. |
 
-- Example:
+-Example:
 
 ```sh
 $ curl localhost:5000/getconfig?validate=f8467b120f4ed91f94074a286113f10a\&key=server
 ```
 
-- Return:
+- return:
 
 | Field name | Description                                                                                                                               |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -165,16 +165,16 @@ $ curl localhost:5000/getconfig?validate=f8467b120f4ed91f94074a286113f10a\&key=s
 
 Used to configure IZUAL
 
-- url: /config
-- method: POST
-- parameters:
+-url: /config
+-method: POST
+-Parameters:
 
 | Parameter name | Is it necessary | Description                                                                     |
 | -------------- | --------------- | ------------------------------------------------------------------------------- |
 | validate       | Yes             | See [Authentication](#_1)                                                       |
 | config         | Yes             | Configuration content, must be the value of yaml parseable text after urlencode |
 
-- Example:
+-Example:
 
 ```sh
 $ curl -X localhost:5000/config -d "config=robot_name_cn%3A+'%E5%AD%99%E6%82%9F%E7%A9%BA'%0Afirst_name%3A+'%E4%BC%9F%E6%B4%B2'%0Alast_name%3A+'%E6%BD%98'%0Atimezone%3A+HKT%0Alocation%3A+'%E6%B7%B1%E5%9C%B3'%0A%0A%23+%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%AB%AF%0Aserver%3A%0A++++enable%3A+true%0A++++host%3A+'0.0.0.0'++%23+ip+%E5%9C%B0%E5%9D%80%0A++++port%3A+'5000'+++++%23+%E7%AB%AF%E5%8F%A3%E5%8F%B7++++%0A++++username%3A+'izual'..."
