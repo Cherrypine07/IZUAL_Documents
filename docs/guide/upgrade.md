@@ -21,7 +21,7 @@ If there is a bug in IZUAL that makes it impossible to upgrade, you can also use
 $ cd <IZUAL Directory>
 $ git checkout master
 $ git pull
-$ cd <IZUAL Directory>
+$ cd <Plugins Directory>
 $ git checkout master
 $ git pull
 ```
