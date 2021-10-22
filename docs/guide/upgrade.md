@@ -18,10 +18,10 @@ $ python3 main.py update
 If there is a bug in IZUAL that makes it impossible to upgrade, you can also use the original upgrade command:
 
 ```bash
-$ cd <IZUAL的目录>
+$ cd <IZUAL Directory>
 $ git checkout master
 $ git pull
-$ cd <Plugins的目录>
+$ cd <IZUAL Directory>
 $ git checkout master
 $ git pull
 ```
